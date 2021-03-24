@@ -1,3 +1,7 @@
+# TIME TRACKER PAGES [click](https://docs.google.com/document/d/1TXRPG4YgGZ3shYMTtPBzr74WGCTrjEI42W_mHwjrZAQ/edit?usp=sharing)
+
+# FIGMA MOCKUPS [click](https://www.figma.com/file/LA0p5sUHjAj6dOLtzp5zlW/Untitled?node-id=0%3A1)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
