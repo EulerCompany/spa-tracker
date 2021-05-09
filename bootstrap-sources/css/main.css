@@ -1,0 +1,34 @@
+.header {
+    background-color: #47007A;
+}
+
+.col-header {
+    height: 100px;
+}
+
+.logo-icon {
+    height: 78px;
+}
+
+.logo-text {
+    font-size: 42px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.content-container {
+    position: relative;
+    top: 140px;
+}
+
+.btn-start {
+    background-color: #47007A;
+    width: 31vw;
+    
+}
+
+.title {
+    font-size: 6vw;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo:700">
+    <link rel="stylesheet" href="./css/register.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,700&display=swap" rel="stylesheet">
+    <title>TimeTracker — Sign up</title>
+</head>
+
+<body>
+    <!-- header start-->
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-md-6 d-flex align-items-center justify-content-md-start justify-content-center col-header">
+                    <a href="#">
+                        <img src="icons/logo.svg" class="p-2 logo-icon">
+                    </a>
+                    <a href="#"  style="text-decoration: none">
+                        <span class="logo-text text-white font-weight-bold font-italic">TimeTracker</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+     <!-- header end-->
+
+     <section>
+         <div class="container">
+             <div class="row justify-content-center">
+                <div class="col-md-7">
+                    <div class="card">
+                        <div class="card-header shadow text-white font-weight-bold d-flex justify-content-center align-items-center">
+                            Registration
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group mt-2">
+                                    <span class="field-names font-weight-bold">Username</span>
+                                    <input type="text" class="form-control form-control-lg mt-2" id="name">
+                                </div>
+                                <div class="form-group mt-3">
+                                    <span class="field-names font-weight-bold">Email</span>
+                                    <input type="email" class="form-control form-control-lg mt-2" id="email">
+                                </div>
+                                <div class="form-group  mt-3">
+                                    <span class="field-names font-weight-bold">Password</span>
+                                    <input type="password" class="form-control form-control-lg mt-2" id="password">
+                                </div>
+                                <div class="form-group mt-3">
+                                    <span class="field-names font-weight-bold">Confirm password</span>
+                                    <input type="password" class="form-control form-control-lg mt-2" id="repeat-password">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="d-none mb-1 confirmation-success" style="text-align: center;">Success! Check your e-mail and log in</div> <!--эту штуку прятать через d-none пока не залогинился-->
+                        <div class="card-footer d-flex justify-content-between align-items-end">
+                            <a href="#" class="mb-1"><button type="button" class="btn text-white btn-register">Create account</button></a>
+                            <a href="#" style="text-decoration: none" class="mb-2"><span class="text-dark">Log in</span></a>
+                        </div>
+                    </div>
+                </div>
+             </div>
+             
+         </div>
+     </section>
+
+     </body>

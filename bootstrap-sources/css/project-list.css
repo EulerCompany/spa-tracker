@@ -1,0 +1,81 @@
+.header {
+    background-color: #47007A;
+}
+
+.col-header {
+    height: 100px;
+}
+
+.logo-icon {
+    height: 78px;
+}
+
+.logo-text {
+    font-size: 42px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-header {
+    background-color: #47007A;
+    height: 30px;
+    font-size: 18px;
+}
+
+.loupe {
+    height: 35px;
+}
+
+.searchbar {
+    margin-top: 8vh;
+}
+
+#button-addon1 {
+    height: 50px;
+}
+
+.form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+  }
+
+  .form-control:focus {
+    box-shadow: none;
+  }
+
+  #search {
+      border-radius: 4px;
+  }
+
+  .card-footer {
+      border: 0px;
+      background-color: white;
+  }
+
+  .card {
+    height:calc(260px + 2vh);
+  }
+
+  .delete-text {
+      color: #de513c;
+  }
+
+  .delete-img {
+      height: 20px;
+  }
+
+  .list-img{
+      height:120px;
+  }
+
+  .fa-plus {
+      font-size: 120px;
+  }
+
+  .small-hint {
+      font-size: 20px;
+      color: #c6c8cc;
+  }

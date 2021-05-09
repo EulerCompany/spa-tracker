@@ -1,0 +1,60 @@
+.header {
+    background-color: #47007A;
+}
+
+.col-header {
+    height: 100px;
+}
+
+.logo-icon {
+    height: 78px;
+}
+
+.logo-text {
+    font-size: 42px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.selected-option {
+    background-color: #3e006b;
+}
+
+.greeting {
+    font-size:calc(18px + 1.5vw);
+}
+
+.card-header {
+    background-color: #47007A;
+    height: 35px;
+    font-size: 21px;
+}
+
+.card {
+    border-radius: 3px;
+    background-color: #f4f1f1;
+    top: 8vh;
+}
+
+.btn-save {
+    background-color: #47007A; ;
+}
+
+.confirmation-success {
+    color:green;
+}
+
+.confirmation-fail {
+    color: red;
+}
+
+.one-liner {
+    display: inline-block;
+}
+
+.lang-select {
+    background-color: white;
+    height: 35px;
+}
