@@ -1,5 +1,5 @@
 <template>
-<Header/>
+    <Header/>
     <section>
         <!--greeting-->
         <div class="container">
@@ -41,7 +41,7 @@
 
 
                             <div class="input-group my-3 form-inline">
-                                <label class="mr-2">Language </label>
+                                <label class="mr-2">Language</label>
                                 <select class="lang-select ml-1" id="inputGroupSelect">
                                     <option value="1">English</option>
                                     <option value="2">Ukrainian</option>
@@ -89,14 +89,15 @@
 
 <script>
 
-import Header from '../components/userHeader.vue'
+import Header from '../components/userHeaderHome.vue'
 
 export default {
   name: 'User',
   components: {
-    Header
+    Header,
   }
 }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

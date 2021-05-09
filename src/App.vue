@@ -1,15 +1,17 @@
 <template>
-  <User/>
+  <!-- <User/> -->
+  <Main/>
 </template> 
 
 <script>
-import User from './views/User.vue'
-
+// import User from './views/UserHome.vue'
+import Main from './views/Main.vue'
 
 export default {
   name: 'App',
   components: {
-    User
+    // User,
+    Main
   }
 }
 </script>
@@ -20,10 +22,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
+/* for future mod */
 #app {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+
 }
+
 </style>
