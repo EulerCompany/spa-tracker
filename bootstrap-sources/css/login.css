@@ -1,0 +1,48 @@
+.header {
+    background-color: #47007A;
+}
+
+.col-header {
+    height: 100px;
+}
+
+.logo-icon {
+    height: 78px;
+}
+
+.logo-text {
+    font-size: 42px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-header {
+    background-color: #47007A;
+    height: 42px;
+    font-size: 22px;
+}
+
+.card {
+    border-radius: 3px;
+    background-color: #f4f1f1;
+    top: 14vh;
+}
+
+.card-footer {
+    background-color: #f4f1f1;
+    border: none;
+}
+
+.field-names {
+    font-size: 17px;
+}
+
+.btn-register {
+    background-color: #47007A;
+}
+
+button {
+    width: 170px;
+}

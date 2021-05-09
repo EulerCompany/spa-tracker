@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo:700">
+    <link rel="stylesheet" href="./css/create-project.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,700&display=swap" rel="stylesheet">
+    <title>TimeTracker — Create project</title>
+
+</head>
+
+<body>
+    <!-- header start-->
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-7 col-xl-8 d-flex align-items-center justify-content-md-start justify-content-center col-header">
+                    <a href="#">
+                        <img src="icons/logo.svg" class="p-2 logo-icon">
+                    </a>
+                    <a href="#"  style="text-decoration: none">
+                        <span class="logo-text text-white font-weight-bold font-italic">TimeTracker</span>
+                    </a>
+                </div>
+                <div class="col-6 pr-4 col-md-3 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-end justify-content-center justify-content-lg-center p-2">
+                    <a href="#"  style="text-decoration: none">
+                        <img src="icons/user.svg" class="p-2 log-in-icon">
+                        <span class="log-in-text text-white">username</span>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2 col-x2-1 d-flex align-items-center justify-content-center justify-content-lg-center p-2">
+                    <a href="#"  style="text-decoration: none">
+                        <span class="log-in-text text-white">Log out</span>
+                        <img src="icons/log-in.svg" class="p-2 log-in-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--header end-->
+
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-7">
+                    <div class="card">
+                        <div class="card-header shadow text-white font-weight-bold d-flex align-items-center">
+                            Create project
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group mt-2">
+                                    <span class="field-names font-weight-bold">Project name</span>
+                                    <input type="text" class="form-control form-control-lg mt-2" id="name">
+                                </div>
+                                <div class="form-group my-5">
+                                    <span class="field-names font-weight-bold">Start date</span>
+                                    <input type="date" class="calendar ml-3">
+                                </div>
+                                <div class="form-group mt-3">
+                                    <span class="field-names font-weight-bold">Priority</span>
+                                    <select class="form-select mx-5">
+                                            <option> High</option>
+                                            <option> Medium</option>
+                                            <option> Low </option>
+                                      </select>
+                                </div>
+                                <div class="form-group mt-5">
+                                    <span class="field-names font-weight-bold">Description</span>
+                                    <textarea class="form-control mt-2" rows="3"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="card-footer d-flex justify-content-end align-items-end">
+                            <a href="#" class="mb-1 mx-4"><button type="button" class="btn text-white btn-save d-flex align-items-center">Save</button></a>
+                            <a href="#" style="text-decoration: none" class="mb-2"><span class="text-dark">Cancel</span></a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>

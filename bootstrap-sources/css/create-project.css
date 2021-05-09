@@ -1,0 +1,61 @@
+.header {
+    background-color: #47007A;
+}
+
+.col-header {
+    height: 100px;
+}
+
+.logo-icon {
+    height: 78px;
+}
+
+.logo-text {
+    font-size: 42px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-header {
+    background-color: #47007A;
+    height: 46px;
+    font-size: 26px;
+}
+
+.card {
+    border-radius: 3px;
+    background-color: #f4f1f1;
+    top: 8vh;
+}
+
+.card-footer {
+    background-color: #f4f1f1;
+    border: none;
+}
+
+.field-names {
+    font-size: 22px;
+}
+
+.btn-save {
+    background-color: #47007A;
+    height:35px;
+}
+
+.calendar {
+    height: 50px;
+}
+
+.form-select {
+    background-color: white;
+    width: 140px;
+    height: 40px;
+}
+
+select {
+  
+        font-family: 'Poppins', sans-serif;
+    
+}

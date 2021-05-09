@@ -1,0 +1,119 @@
+.header {
+    background-color: #47007A;
+}
+
+.col-header {
+    height: 100px;
+}
+
+.logo-icon {
+    height: 78px;
+}
+
+.logo-text {
+    font-size: 42px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.card-header {
+    background-color: #47007A;
+    height: 35px;
+    font-size: 21px;
+}
+
+.card {
+    border-radius: 3px;
+    background-color: #f4f1f1;
+    top: 8vh;
+}
+
+.delete-img {
+    height: 30px;
+}
+
+.left-arrow {
+    height: 30px;
+}
+
+.back-text {
+    font-size: 23px;
+    color: black;
+}
+
+.text-underline {
+    width: 200px;
+    height: 3px;
+    margin: 0;
+  }
+
+  .project-title{
+      font-size: 50px;
+  }
+
+  .status-select {
+      background-color: white;
+  }
+
+  .card-header {
+    background-color: #47007A;
+    height: 35px;
+    font-size: 23px;
+}
+
+.card {
+    border-radius: 3px;
+    background-color: #f4f1f1;
+    top: 8vh;
+}
+
+.card-footer {
+    background-color: #f4f1f1;
+    height: 50px;
+}
+
+.subtask-item {
+    border-bottom: 1px;
+    margin: 0;
+}
+
+.subtask-name {
+    font-size: 20px;
+}
+
+.delete-img-small {
+    height: 25px;
+}
+
+.right-arrow {
+    height: 25px;
+}
+
+.delete-text {
+    color: #de513c;
+}
+
+.black-plus {
+    height: 20px;
+}
+
+.cont {
+    padding-bottom: 200px;
+}
+
+.w-d-h {
+    width: calc(40px);
+}
+
+.add-item-top {
+    border-radius: 3px 3px 0px 0px;
+    background-color: #f4f1f1;
+}
+
+.add-item-bottom {
+    border-radius: 0px 0px 3px 3px;
+    background-color: #f4f1f1;
+}
