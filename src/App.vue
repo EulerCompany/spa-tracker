@@ -1,17 +1,19 @@
 <template>
-  <User/>
-  <!-- <Main/> -->
+  <Example/>
 </template> 
 
 <script>
-import User from './views/CreateProject.vue'
-// import Main from './views/Main.vue'
+
+
+// Commet/uncomment to see another pages
+import Example from './views/CreateProject.vue'
+// import Example from './views/Main.vue'
+// import Example from './views/UserHome.vue'
 
 export default {
   name: 'App',
   components: {
-    User,
-    // Main
+    Example,
   }
 }
 </script>

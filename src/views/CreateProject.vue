@@ -59,7 +59,7 @@
 </template>
 
 <script>
-import Header from "../components/headerMain.vue";
+import Header from "../components/userHeaderHome.vue";
 
 export default {
   name: "Main",

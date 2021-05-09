@@ -25,7 +25,7 @@
 
 <script>
 
-import LogIn from './logIn.vue'
+import LogIn from './logOut.vue'
 import UserName from './userNameHeader.vue'
 
 export default {
