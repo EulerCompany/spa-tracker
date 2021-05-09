@@ -15,7 +15,6 @@
           </a>
         </div>
         
-        <LogIn/>
 
       </div>
     </div>
@@ -24,12 +23,10 @@
 
 <script>
 
-import LogIn from './logIn.vue'
 
 export default {
   name: "Header",
   components: {
-      LogIn,
   },
 };
 </script>
