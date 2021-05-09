@@ -16,7 +16,7 @@
         </div>
         
         <UserName/>
-        <LogOut/>
+        <LogIn/>
 
       </div>
     </div>
@@ -25,13 +25,13 @@
 
 <script>
 
-import LogOut from './logOut.vue'
+import LogIn from './logIn.vue'
 import UserName from './userNameHeader.vue'
 
 export default {
   name: "Header",
   components: {
-      LogOut,
+      LogIn,
       UserName
   },
 };

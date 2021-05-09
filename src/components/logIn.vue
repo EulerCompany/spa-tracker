@@ -4,7 +4,7 @@
   >
     <a href="#" style="text-decoration: none">
       <span class="log-in-text text-white">Log in</span>
-      <img src="icons/log-in.svg" class="p-2 log-in-icon" />
+      <img src="../assets/img/log-in.svg" class="p-2 log-in-icon" />
     </a>
   </div>
 </template>
