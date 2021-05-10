@@ -1,21 +1,20 @@
 <template>
 <div id="app">
-    <router-view/>
+    <router-view/>   
   </div>
+  <!-- <Example/> -->
 </template> 
 
 <script>
 
+// comment div with id and paste <Example/> to see your page
 
-// Commet/uncomment to see another pages
-// import Example from './views/CreateProject.vue'
-// import Example from './views/Main.vue'
-// import Example from './views/UserHome.vue'
-
+// uncomment and paste path to your vue file
+// import Example from "./views/Main.vue"
 export default {
   name: 'App',
   components: {
-    // Example,
+    // Example
   }
 }
 </script>

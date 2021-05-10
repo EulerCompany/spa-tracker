@@ -1,8 +1,6 @@
 import { createWebHistory, createRouter } from "vue-router";
 
-
-const Main = resolve => require(['../views/Main.vue'], resolve)
-const CreateProject = resolve => require(['../views/CreateProject.vue'], resolve)
+import Main from '../views/Main.vue'
 
 const routes = [
   {
@@ -11,10 +9,16 @@ const routes = [
     component: Main,
   },
   {
-    path: "/create",
+    path: "/create-project",
     name: "CreateProject",
-    component: CreateProject
+    component: () => import('../views/CreateProject.vue')
   },
+  {
+    path: "/home",
+    name: "Home",
+    component: () => import('../views/UserHome.vue')
+  },
+
   
 ];
 
