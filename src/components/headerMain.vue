@@ -32,6 +32,7 @@ export default {
   background-color: #47007a;
 }
 
+
 .col-header {
   height: 100px;
 }
