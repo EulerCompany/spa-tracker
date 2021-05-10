@@ -9,7 +9,7 @@
           <span class="title font-weight-bold">No projects yet!</span>
         </div>
         <div class="col-12 d-flex justify-content-center">
-          <router-link to="/login"
+          <router-link to="/home"
             ><rbutton type="button" class="btn btn-start text-white m-5 btn-lg">
               <span class="start-text">Start logging</span>
             </rbutton></router-link
