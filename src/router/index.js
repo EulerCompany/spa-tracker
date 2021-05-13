@@ -28,6 +28,16 @@ const routes = [
     name: "Register",
     component: () => import('../views/UserRegister.vue')
   },
+  {
+    path: "/project-list",
+    name: "ProjectList",
+    component: () => import('../views/ProjectList.vue')
+  },
+  {
+    path: "/project-detailed",
+    name: "ProjectDetailed",
+    component: () => import('../views/ProjectDetailed.vue')
+  }
 ];
 
 const router = createRouter({
