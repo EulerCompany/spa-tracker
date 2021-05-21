@@ -4,8 +4,8 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 d-flex justify-content-start mt-3">
-                    <router-link to="/spa-tracker/project-list" style="text-decoration: none;"><img src="../../src/assets/img/left-arrow.svg" alt="left-arrow"
-                            class="left-arrow"></router-link><router-link to="/spa-tracker/project-list" style="text-decoration: none;"><span
+                    <router-link to="/project-list" style="text-decoration: none;"><img src="../../src/assets/img/left-arrow.svg" alt="left-arrow"
+                            class="left-arrow"></router-link><router-link to="/project-list" style="text-decoration: none;"><span
                             class="ml-1 back-text">Back</span></router-link>
                 </div>
             </div>
