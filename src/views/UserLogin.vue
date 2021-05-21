@@ -21,7 +21,7 @@
                             </form>
                         </div>
                         <div class="card-footer d-flex justify-content-between align-items-end">
-                            <a href="#" class="mb-1"><button type="button" class="btn text-white btn-register">Sign in</button></a>
+                            <a href="/project-detailed" class="mb-1"><button type="button" class="btn text-white btn-register">Sign in</button></a>
                             <a href="/register" style="text-decoration: none" class="mb-2"><span class="text-dark">Register</span></a>
                         </div>
                     </div>
