@@ -21,8 +21,8 @@
                             </form>
                         </div>
                         <div class="card-footer d-flex justify-content-between align-items-end">
-                            <router-link to="/project-detailed" class="mb-1"><button type="button" class="btn text-white btn-register">Sign in</button></router-link>
-                            <router-link to="/register" style="text-decoration: none" class="mb-2"><span class="text-dark">Register</span></router-link>
+                            <router-link to="/spa-tracker/project-detailed" class="mb-1"><button type="button" class="btn text-white btn-register">Sign in</button></router-link>
+                            <router-link to="/spa-tracker/register" style="text-decoration: none" class="mb-2"><span class="text-dark">Register</span></router-link>
                         </div>
                     </div>
                 </div>
